@@ -1,0 +1,10 @@
+{
+  "name": "hexclash",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node test/harness.js",
+    "screenshots": "node test/screenshots.js",
+    "start": "npx serve game -l 8080"
+  }
+}
